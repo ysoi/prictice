@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        div{
+            width:295px;
+            height:221px;
+            margin:50px auto;
+            overflow:hidden;
+            box-shadow: 0 0 5px rgba(0,0,0,1);
+            background-size:cover;
+            background-position:center;
+            -webkit-animation-name:'loops';
+            -webkit-animation-duration:20s;
+            -webkit-animation-iteration-count:infinite;
+          
+        }
+        @-webkit-keyframes loops{
+            0% {
+                background:url('./imgs/desert/01.jpg') no-repeat;
+            }
+            25% {
+                background:url('./imgs/desert/02.jpg') no-repeat;
+            }
+            50% {
+                background:url('./imgs/desert/03.jpg') no-repeat;
+            }
+
+            75% {
+                background:url('./imgs/desert/04.jpg') no-repeat;
+            }
+           100% {
+                background:url('./imgs/desert/05.jpg') no-repeat;
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>
